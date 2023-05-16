@@ -1,0 +1,29 @@
+/* Log in style css */
+/* .navbar-fixed-top {
+    height: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background: rgb(208, 184, 168, 1);
+   } */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(208, 184, 168, 1);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #010100;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #765232;
+  }

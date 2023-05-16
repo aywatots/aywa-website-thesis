@@ -1,0 +1,140 @@
+/* home.html stylesheets */
+
+.navbar-fixed-top {
+ height: 75px;
+ box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+ background: rgb(208, 184, 168, 1);
+}
+
+[class="navbar fixed-bottom"]{
+  height: 90px;
+  box-shadow: 0px 3px 5px 7px rgba(0, 0, 0, 0.25);
+  margin: auto;
+  background: rgb(208, 184, 168, 1);
+}
+
+.rectangle {
+ position: fixed; 
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ width: 650px;
+ height: 351px;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+
+ background: #DFD3C3;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ border-radius: 49px;
+}
+.text {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 800;
+ padding-top: 10px;
+ font-size: 36px;
+ line-height: 100px;
+ height: 80px;
+ text-align: center;
+ color: rgba(133, 88, 111, 1);
+}
+.login-container {
+ padding-top: 1px;
+ align-items: center;
+ margin: 50px;
+ border-radius: 49px;
+}
+.login-button {
+ width: 85px;
+ color:rgba(133, 88, 111, 1)
+}
+.login-container .custom-username {
+ width: 100%;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 10px;
+ padding: 10px;
+ border: 2px solid #ccc;
+ border-radius: 45px;
+ color: rgb(59, 25, 3);
+}
+.login-container .custom-password {
+align-items: flex-end;
+width: 100%;
+margin-bottom: 10px;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 45px;
+}
+.login-container .login-button {
+margin-bottom: 10px;
+padding: 10px;
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+border-radius: 10px;
+margin-left: 43%;
+margin-top: 10px;
+}
+.login-container .forgot-password {
+font-family: 'Inter';
+text-align: center;
+font-style: italic;
+font-weight: 500;
+font-size: 12px;
+margin-left: 10px;
+line-height: 15px;
+color: black;
+}
+::placeholder {
+color: rgba(133, 88, 111, 1);
+font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 767px) {
+/* Adjust the size and position for mobile screens */
+ 
+.rectangle {
+width: 350px;
+height: 300px;
+left: 50%;
+top: 50%;
+}
+/*ADMIN LOGIN text*/
+.text{
+ margin: 0;
+ height: 90px;
+ font-size: 30px;
+ font-family: 'Inter';
+}
+.login-container .custom-username {
+ width: 300px;
+ margin-left: 20px;
+ height: 50px;
+ padding-bottom: -20px;
+ color: rgb(25, 12, 2)
+}
+.login-container .custom-password {
+ width: 300px;
+ margin-left: 20px;
+ height: 50px;
+ padding-top: -20px;
+ color: rgb(25, 12, 2)
+}
+.login-container .login-button {
+ width: 90px;
+ text-align: center;
+ padding-top: 10px;
+ align-items: center;
+ margin-top: 10px;
+ margin-left: 37%;
+}
+.login-container .forgot-password {
+ text-align: center;
+ object-position: 11px;
+}
+.login-container {
+ border-radius: 49px;
+ margin: 0;
+ padding: 0;
+ font-family: 'Courier New', Courier, monospace;
+}
+} 
